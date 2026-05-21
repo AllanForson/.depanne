@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js
+.next/
+out/
+build/
+
+# Env files — JAMAIS commités
+.env
+.env.local
+.env.*.local
+
+# Prisma
+prisma/generated/
+
+# Testing
+coverage/
+playwright-report/
+test-results/
+
+# Misc
+.DS_Store
+*.pem
+certs/
+*.log
+.turbo/
+
+# Editors
+.vscode/settings.json
+.idea/
+/generated/prisma
